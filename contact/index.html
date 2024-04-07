@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../src/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>contact</title>
   </head>
-  <body>
+  <body class="bg-gray-200">
     <header class="bg-gray-900 text-white py-4">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Logo -->
@@ -36,17 +37,14 @@
       </div>
     </header>
     <main>
-      <div
-        class="bg-stone-100 flex flex-col items-center pb-20 pt-16 container mx-auto py-8 px-4"
-      >
-        <div class="py-4">
-          <h1 class="text-3xl font-bold text-black">CONTACT</h1>
-          <div class="h-1.5 w-6 bg-black rounded-full mx-auto my-3"></div>
-          <p class="text-lg text-center text-black">
-            Feel free to contact me by submitting the form below, and I will get
-            back to you as soon as possible.
-          </p>
-        </div>
+      <div class="flex flex-col items-center container mx-auto pt-4 pb-8 px-4">
+        <h1 class="text-3xl font-bold text-black p-2">Contact</h1>
+
+        <p class="text-lg text-center text-black">
+          Feel free to contact me by submitting the form below, and I will get
+          back to you as soon as possible.
+        </p>
+
         <div
           class="bg-white w-full sm:w-9/12 md:w-8/12 lg:w-7/12 xl:w-6/12 mt-8 rounded-lg shadow-lg"
         >
@@ -77,10 +75,11 @@
               placeholder="Your Message"
               rows="5"
               class="w-full rounded-md border p-3 text-lg text-black bg-stone-100 focus:outline-none focus:border-teal-700"
-            ></textarea>
+            >
+            </textarea>
             <button
               type="submit"
-              class="w-full py-3 text-lg font-semibold bg-teal-700 rounded-md hover:bg-teal-500 focus:outline-none focus:bg-teal-500 transition duration-300"
+              class="w-full py-3 text-lg font-semibold bg-gray-500 text-white hover:bg-gray-700 rounded-md focus:outline-none focus:bg-teal-500 transition duration-300"
             >
               SUBMIT
             </button>

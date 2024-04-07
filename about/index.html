@@ -3,9 +3,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
-    <link rel="stylesheet" href="../src/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-gray-200">
     <header class="bg-gray-900 text-white py-4">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Logo -->
@@ -36,12 +36,10 @@
     </header>
     <main>
       <div class="text-center">
-        <h2 class="text-2xl font-bold py-4">About Me</h2>
-        <p class="mt-2">Curious about me?</p>
-        <p class="mt-2">Here you have it:</p>
-      </div>
-      <div class="container mx-auto flex justify-between">
-        <div class="w-1/2 bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-3xl font-bold py-4">Curious about me?</h2>
+     
+      <div class="grid grid-cols-1 lg:mx-20 lg:grid-cols-2 gap-4 mx-8  ">
+        <div class=" bg-white rounded-lg shadow-md p-6 text-left">
           <p class="text-gray-700 mb-6">
             “Currently, I work as a Chemistry teacher for secondary school,
             using A and AS levels. With over five years of teaching experience,
@@ -64,10 +62,11 @@
           src="/images/about.jpg"
           alt="Ma'ruf Hasan profile"
           class="rounded-lg shadow-md"
-          width="400"
-          height="450"
+          
         />
       </div>
+      
+      
     </main>
     <footer class="bg-gray-900 text-white py-4 mt-4">
       <div class="container mx-auto flex justify-between items-center">
